@@ -40,5 +40,8 @@ windturbine_datadictionary.ipynb: Updated the data dictionary based on the site 
 sarima_forecast.ipynb: Sarima forecasting model performed on the wind market
 Model_wind_turbine.ipynb: The clustering analysis performed on the wind plants
 
+# Visualizations Made
+Cluster_Visual.twbx
+
 # Presentation File
 JADEN PRESENTATION_21MAR.pptx
