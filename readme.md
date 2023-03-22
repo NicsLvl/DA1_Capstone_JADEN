@@ -18,6 +18,15 @@ Gain experience with project management and associated tools
 # Data
 
 All the data be found in the data folder. We will use the latest datasets available which is up till 2021. The project will use the following data:
-[EIA schedule 860](https://www.eia.gov/electricity/data/eia860/): eia860_num_wt_Y2021.xlsx
-[EIA schedule 923](https://www.eia.gov/electricity/data/eia923/) : EIA923_Schedules_2_3_4_5_M_12_2021_Final_Revision.xlsx
-[US Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/): uswtdb_v5_0_20220427.csv
+- [EIA schedule 860](https://www.eia.gov/electricity/data/eia860/): eia860_num_wt_Y2021.xlsx
+- [EIA schedule 923](https://www.eia.gov/electricity/data/eia923/) : EIA923_Schedules_2_3_4_5_M_12_2021_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2020_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2019_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2018_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2017_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2016_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2015_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2014_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2013_Final_Revision.xlsx
+EIA923_Schedules_2_3_4_5_M_12_2012_Final_Revision.xlsx
+- [US Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/): uswtdb_v5_0_20220427.csv
