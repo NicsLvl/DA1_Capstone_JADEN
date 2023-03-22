@@ -1,0 +1,3213 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='final_copy' inline='true' name='federated.1422vay11q0a0h11sobo20evpkod' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_copy' name='textscan.1177msc0tpuuld1drccb60qpu1ax'>
+            <connection class='textscan' directory='/Users/nick/Github/DA1_Capstone_JADEN' filename='final_copy.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1177msc0tpuuld1drccb60qpu1ax' name='final_copy.csv' table='[final_copy#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Plant Id' ordinal='1' />
+            <column datatype='string' name='Reported_Prime Mover' ordinal='2' />
+            <column datatype='string' name='Plant State' ordinal='3' />
+            <column datatype='string' name='Census Region' ordinal='4' />
+            <column datatype='string' name='NERC Region' ordinal='5' />
+            <column datatype='integer' name='Elec Fuel Consumption_MMBtu' ordinal='6' />
+            <column datatype='real' name='Net Generation_(Megawatthours)' ordinal='7' />
+            <column datatype='integer' name='Plant Code' ordinal='8' />
+            <column datatype='string' name='Sector Name' ordinal='9' />
+            <column datatype='string' name='Utility Name' ordinal='10' />
+            <column datatype='real' name='Nameplate Capacity (MW)' ordinal='11' />
+            <column datatype='real' name='Summer Capacity (MW)' ordinal='12' />
+            <column datatype='real' name='Winter Capacity (MW)' ordinal='13' />
+            <column datatype='integer' name='Number of Turbines' ordinal='14' />
+            <column datatype='real' name='turbine_capacity (KW)' ordinal='15' />
+            <column datatype='real' name='hub_height (m)' ordinal='16' />
+            <column datatype='real' name='rotor_diameter (m)' ordinal='17' />
+            <column datatype='real' name='rotor_swept area (m2)' ordinal='18' />
+            <column datatype='real' name='max_height (m)' ordinal='19' />
+            <column datatype='real' name='xlong' ordinal='20' />
+            <column datatype='real' name='ylat' ordinal='21' />
+            <column datatype='integer' name='plant_id_x' ordinal='22' />
+            <column datatype='integer' name='operation_years_x' ordinal='23' />
+            <column datatype='real' name='CAGR_netgen' ordinal='24' />
+            <column datatype='integer' name='plant_id_y' ordinal='25' />
+            <column datatype='integer' name='operation_years_y' ordinal='26' />
+            <column datatype='real' name='CACR' ordinal='27' />
+            <column datatype='integer' name='plant_id' ordinal='28' />
+            <column datatype='integer' name='operation_years' ordinal='29' />
+            <column datatype='real' name='CACR_uptime' ordinal='30' />
+            <column datatype='real' name='uptime' ordinal='31' />
+            <column datatype='real' name='efficiency' ordinal='32' />
+            <column datatype='real' name='avg_tgen' ordinal='33' />
+            <column datatype='real' name='avg_fuel' ordinal='34' />
+            <column datatype='real' name='avg_tcap' ordinal='35' />
+            <column datatype='integer' name='cluster' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1177msc0tpuuld1drccb60qpu1ax' name='final_copy.csv' table='[final_copy#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Plant Id' ordinal='1' />
+            <column datatype='string' name='Reported_Prime Mover' ordinal='2' />
+            <column datatype='string' name='Plant State' ordinal='3' />
+            <column datatype='string' name='Census Region' ordinal='4' />
+            <column datatype='string' name='NERC Region' ordinal='5' />
+            <column datatype='integer' name='Elec Fuel Consumption_MMBtu' ordinal='6' />
+            <column datatype='real' name='Net Generation_(Megawatthours)' ordinal='7' />
+            <column datatype='integer' name='Plant Code' ordinal='8' />
+            <column datatype='string' name='Sector Name' ordinal='9' />
+            <column datatype='string' name='Utility Name' ordinal='10' />
+            <column datatype='real' name='Nameplate Capacity (MW)' ordinal='11' />
+            <column datatype='real' name='Summer Capacity (MW)' ordinal='12' />
+            <column datatype='real' name='Winter Capacity (MW)' ordinal='13' />
+            <column datatype='integer' name='Number of Turbines' ordinal='14' />
+            <column datatype='real' name='turbine_capacity (KW)' ordinal='15' />
+            <column datatype='real' name='hub_height (m)' ordinal='16' />
+            <column datatype='real' name='rotor_diameter (m)' ordinal='17' />
+            <column datatype='real' name='rotor_swept area (m2)' ordinal='18' />
+            <column datatype='real' name='max_height (m)' ordinal='19' />
+            <column datatype='real' name='xlong' ordinal='20' />
+            <column datatype='real' name='ylat' ordinal='21' />
+            <column datatype='integer' name='plant_id_x' ordinal='22' />
+            <column datatype='integer' name='operation_years_x' ordinal='23' />
+            <column datatype='real' name='CAGR_netgen' ordinal='24' />
+            <column datatype='integer' name='plant_id_y' ordinal='25' />
+            <column datatype='integer' name='operation_years_y' ordinal='26' />
+            <column datatype='real' name='CACR' ordinal='27' />
+            <column datatype='integer' name='plant_id' ordinal='28' />
+            <column datatype='integer' name='operation_years' ordinal='29' />
+            <column datatype='real' name='CACR_uptime' ordinal='30' />
+            <column datatype='real' name='uptime' ordinal='31' />
+            <column datatype='real' name='efficiency' ordinal='32' />
+            <column datatype='real' name='avg_tgen' ordinal='33' />
+            <column datatype='real' name='avg_fuel' ordinal='34' />
+            <column datatype='real' name='avg_tcap' ordinal='35' />
+            <column datatype='integer' name='cluster' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plant Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plant Id]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Plant Id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reported_Prime Mover</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Reported_Prime Mover]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Reported_Prime Mover</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plant State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Plant State]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Plant State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Census Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Census Region]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Census Region</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NERC Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NERC Region]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>NERC Region</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Elec Fuel Consumption_MMBtu</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Elec Fuel Consumption_MMBtu]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Elec Fuel Consumption_MMBtu</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Generation_(Megawatthours)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Generation_(Megawatthours)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Net Generation_(Megawatthours)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Plant Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Plant Code]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Plant Code</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sector Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sector Name]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Sector Name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Utility Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Utility Name]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Utility Name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nameplate Capacity (MW)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nameplate Capacity (MW)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Nameplate Capacity (MW)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Summer Capacity (MW)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Summer Capacity (MW)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Summer Capacity (MW)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winter Capacity (MW)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Winter Capacity (MW)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Winter Capacity (MW)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Turbines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Turbines]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>Number of Turbines</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>turbine_capacity (KW)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[turbine_capacity (KW)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>turbine_capacity (KW)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hub_height (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hub_height (m)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>hub_height (m)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rotor_diameter (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rotor_diameter (m)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>rotor_diameter (m)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rotor_swept area (m2)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rotor_swept area (m2)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>rotor_swept area (m2)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max_height (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[max_height (m)]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>max_height (m)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>xlong</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[xlong]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>xlong</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ylat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ylat]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>ylat</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>plant_id_x</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[plant_id_x]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>plant_id_x</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operation_years_x</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[operation_years_x]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>operation_years_x</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CAGR_netgen</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CAGR_netgen]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>CAGR_netgen</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>plant_id_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[plant_id_y]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>plant_id_y</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operation_years_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[operation_years_y]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>operation_years_y</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CACR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CACR]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>CACR</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>plant_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[plant_id]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>plant_id</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>operation_years</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[operation_years]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>operation_years</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CACR_uptime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CACR_uptime]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>CACR_uptime</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uptime</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[uptime]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>uptime</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>efficiency</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[efficiency]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>efficiency</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_tgen</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_tgen]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>avg_tgen</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_fuel</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_fuel]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>avg_fuel</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_tcap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_tcap]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>avg_tcap</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cluster]</local-name>
+            <parent-name>[final_copy.csv]</parent-name>
+            <remote-alias>cluster</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Average Operation Years' datatype='real' name='[Average CACR (copy)_87960937277345795]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([operation_years])}' />
+      </column>
+      <column caption='Average Consumption Rate' datatype='real' name='[Average CAGR (copy)_87960937035042817]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([CACR])}' />
+      </column>
+      <column caption='Average Uptime Rate' datatype='real' name='[Average Cluster (copy)_87960937053798402]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([CACR_uptime])}' />
+      </column>
+      <column caption='Average Efficiency' datatype='real' name='[Average Uptime (copy)_4908712494298636297]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([efficiency])}' />
+      </column>
+      <column caption='Average Number of Turbines' datatype='real' name='[Average Uptime (copy)_4908712494304948235]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Number of Turbines])}' />
+      </column>
+      <column caption='Average Turbine Generation Capacity (MWH)' datatype='real' name='[Average Uptime Rate (copy)_87960937306693638]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([avg_tgen])}' />
+      </column>
+      <column caption='Total Capacity' datatype='real' name='[Calculation_4908712494177738752]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Nameplate Capacity (MW)])}' />
+      </column>
+      <column caption='Average Cluster' datatype='real' name='[Calculation_4908712494180507651]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([cluster])}' />
+      </column>
+      <column caption='Elec Fuel Consumption MMBtu' datatype='integer' name='[Elec Fuel Consumption_MMBtu]' role='measure' type='quantitative' />
+      <column caption='Net Generation (Megawatthours)' datatype='real' name='[Net Generation_(Megawatthours)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Plant Code]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Plant Id]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Reported Prime Mover' datatype='string' name='[Reported_Prime Mover]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Sector Name]' role='dimension' type='nominal' />
+      <column caption='Total Uptime' datatype='real' name='[Total Capacity (copy)_4908712494179098625]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:sum([uptime])}' />
+      </column>
+      <column caption='Total Generated' datatype='real' name='[Total Capacity (copy)_4908712494181457924]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Net Generation_(Megawatthours)])}' />
+      </column>
+      <column caption='Average Capacity' datatype='real' name='[Total Capacity (copy)_4908712494186414087]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Nameplate Capacity (MW)])}' />
+      </column>
+      <column caption='Average Fuel' datatype='real' name='[Total Fuel (copy)_4908712494186008582]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Elec Fuel Consumption_MMBtu])}' />
+      </column>
+      <column caption='Average Generated' datatype='real' name='[Total Generated (copy)_4908712494186905608]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Net Generation_(Megawatthours)])}' />
+      </column>
+      <column caption='Total Fuel' datatype='integer' name='[Total Uptime (copy)_4908712494179323906]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Elec Fuel Consumption_MMBtu])}' />
+      </column>
+      <column caption='Average Uptime' datatype='real' name='[Total Uptime (copy)_4908712494185844741]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([uptime])}' />
+      </column>
+      <column caption='Total Turbine' datatype='integer' name='[Total Uptime (copy)_6159657659569381376]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Number of Turbines])}' />
+      </column>
+      <column datatype='string' name='[Utility Name]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='final_copy.csv' datatype='table' name='[__tableau_internal_object_id__].[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]' role='measure' type='quantitative' />
+      <column caption='Avg Fuel' datatype='real' name='[avg_fuel]' role='measure' type='quantitative' />
+      <column caption='Avg Tcap' datatype='real' name='[avg_tcap]' role='measure' type='quantitative' />
+      <column caption='Turbine Generation Capacity (MWH)' datatype='real' name='[avg_tgen]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+      <column caption='Efficiency' datatype='real' name='[efficiency]' role='measure' type='quantitative' />
+      <column caption='Hub Height (M)' datatype='real' name='[hub_height (m)]' role='measure' type='quantitative' />
+      <column caption='Max Height (M)' datatype='real' name='[max_height (m)]' role='measure' type='quantitative' />
+      <column caption='Rotor Diameter (M)' datatype='real' name='[rotor_diameter (m)]' role='measure' type='quantitative' />
+      <column caption='Rotor Swept Area (M2)' datatype='real' name='[rotor_swept area (m2)]' role='measure' type='quantitative' />
+      <column caption='turbine capacity (KW)' datatype='real' name='[turbine_capacity (KW)]' role='measure' type='quantitative' />
+      <column caption='Uptime' datatype='real' name='[uptime]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Xlong' datatype='real' name='[xlong]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Ylat' datatype='real' name='[ylat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column-instance column='[Average Uptime (copy)_4908712494304948235]' derivation='None' name='[none:Average Uptime (copy)_4908712494304948235:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Sector Name]' derivation='None' name='[none:Sector Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Utility Name]' derivation='None' name='[none:Utility Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[xlong]' derivation='None' name='[none:xlong:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ylat]' derivation='None' name='[none:ylat:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Average Number of Turbines,Plant State,Sector Name,Utility Name,Xlong,Ylat)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Average Uptime (copy)_4908712494304948235:ok]' />
+          <groupfilter function='level-members' level='[none:Plant State:nk]' />
+          <groupfilter function='level-members' level='[none:Sector Name:nk]' />
+          <groupfilter function='level-members' level='[none:Utility Name:nk]' />
+          <groupfilter function='level-members' level='[none:xlong:qk]' />
+          <groupfilter function='level-members' level='[none:ylat:qk]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/tableau-temp/TEMP_0udx6050orgpq311xqo5114xg8g6.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='03/22/2023 06:11:50 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='final_copy' increment-value='%null%' refresh-type='create' rows-inserted='1017' timestamp-start='2023-03-22 06:11:50.152' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Plant Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Plant Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Plant Id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reported_Prime Mover</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Reported_Prime Mover]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reported_Prime Mover</remote-alias>
+              <ordinal>2</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Plant State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Plant State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Plant State</remote-alias>
+              <ordinal>3</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Census Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Census Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Census Region</remote-alias>
+              <ordinal>4</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NERC Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NERC Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NERC Region</remote-alias>
+              <ordinal>5</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Elec Fuel Consumption_MMBtu</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Elec Fuel Consumption_MMBtu]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Elec Fuel Consumption_MMBtu</remote-alias>
+              <ordinal>6</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1015</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Net Generation_(Megawatthours)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Net Generation_(Megawatthours)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Net Generation_(Megawatthours)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1013</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Plant Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Plant Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Plant Code</remote-alias>
+              <ordinal>8</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sector Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sector Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sector Name</remote-alias>
+              <ordinal>9</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Utility Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Utility Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Utility Name</remote-alias>
+              <ordinal>10</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>579</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nameplate Capacity (MW)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Nameplate Capacity (MW)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nameplate Capacity (MW)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>487</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Summer Capacity (MW)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Summer Capacity (MW)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Summer Capacity (MW)</remote-alias>
+              <ordinal>12</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>493</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Winter Capacity (MW)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Winter Capacity (MW)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Winter Capacity (MW)</remote-alias>
+              <ordinal>13</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>494</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Turbines</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number of Turbines]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Turbines</remote-alias>
+              <ordinal>14</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>176</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>turbine_capacity (KW)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[turbine_capacity (KW)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>turbine_capacity (KW)</remote-alias>
+              <ordinal>15</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>206</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hub_height (m)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hub_height (m)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hub_height (m)</remote-alias>
+              <ordinal>16</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>152</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rotor_diameter (m)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rotor_diameter (m)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rotor_diameter (m)</remote-alias>
+              <ordinal>17</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>209</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rotor_swept area (m2)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rotor_swept area (m2)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rotor_swept area (m2)</remote-alias>
+              <ordinal>18</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>max_height (m)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[max_height (m)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>max_height (m)</remote-alias>
+              <ordinal>19</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>312</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>xlong</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[xlong]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>xlong</remote-alias>
+              <ordinal>20</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ylat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ylat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ylat</remote-alias>
+              <ordinal>21</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>plant_id_x</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[plant_id_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>plant_id_x</remote-alias>
+              <ordinal>22</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>operation_years_x</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[operation_years_x]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>operation_years_x</remote-alias>
+              <ordinal>23</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CAGR_netgen</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CAGR_netgen]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CAGR_netgen</remote-alias>
+              <ordinal>24</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>plant_id_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[plant_id_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>plant_id_y</remote-alias>
+              <ordinal>25</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>operation_years_y</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[operation_years_y]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>operation_years_y</remote-alias>
+              <ordinal>26</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CACR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CACR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CACR</remote-alias>
+              <ordinal>27</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1016</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>plant_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[plant_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>plant_id</remote-alias>
+              <ordinal>28</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>operation_years</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[operation_years]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>operation_years</remote-alias>
+              <ordinal>29</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CACR_uptime</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CACR_uptime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CACR_uptime</remote-alias>
+              <ordinal>30</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>uptime</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[uptime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>uptime</remote-alias>
+              <ordinal>31</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1016</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>efficiency</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[efficiency]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>efficiency</remote-alias>
+              <ordinal>32</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1010</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_tgen</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_tgen]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_tgen</remote-alias>
+              <ordinal>33</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1016</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_fuel</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_fuel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_fuel</remote-alias>
+              <ordinal>34</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>avg_tcap</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[avg_tcap]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>avg_tcap</remote-alias>
+              <ordinal>35</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>356</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cluster</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cluster]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cluster</remote-alias>
+              <ordinal>36</ordinal>
+              <family>final_copy.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:cluster:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Plant State:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;CO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MO&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;KS&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;TX&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NM&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;WY&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;IN&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;NE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;IA&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;OR&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <default-sorts>
+        <natural-sort column='[none:cluster:ok]' direction='DESC' />
+      </default-sorts>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='F1' />
+        <field-sort-custom-order field='Plant Id' />
+        <field-sort-custom-order field='Reported_Prime Mover' />
+        <field-sort-custom-order field='Plant State' />
+        <field-sort-custom-order field='Census Region' />
+        <field-sort-custom-order field='NERC Region' />
+        <field-sort-custom-order field='Elec Fuel Consumption_MMBtu' />
+        <field-sort-custom-order field='Net Generation_(Megawatthours)' />
+        <field-sort-custom-order field='Plant Code' />
+        <field-sort-custom-order field='Sector Name' />
+        <field-sort-custom-order field='Utility Name' />
+        <field-sort-custom-order field='Nameplate Capacity (MW)' />
+        <field-sort-custom-order field='Summer Capacity (MW)' />
+        <field-sort-custom-order field='Winter Capacity (MW)' />
+        <field-sort-custom-order field='Number of Turbines' />
+        <field-sort-custom-order field='turbine_capacity (KW)' />
+        <field-sort-custom-order field='hub_height (m)' />
+        <field-sort-custom-order field='rotor_diameter (m)' />
+        <field-sort-custom-order field='rotor_swept area (m2)' />
+        <field-sort-custom-order field='max_height (m)' />
+        <field-sort-custom-order field='xlong' />
+        <field-sort-custom-order field='ylat' />
+        <field-sort-custom-order field='uptime' />
+        <field-sort-custom-order field='efficiency' />
+        <field-sort-custom-order field='avg_tgen' />
+        <field-sort-custom-order field='avg_fuel' />
+        <field-sort-custom-order field='avg_tcap' />
+        <field-sort-custom-order field='cluster' />
+        <field-sort-custom-order field='Calculation_4908712494180507651' />
+        <field-sort-custom-order field='Average Cluster (copy)_87960937053798402' />
+        <field-sort-custom-order field='Average Uptime Rate (copy)_87960937306693638' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='final_copy.csv' id='final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5'>
+            <properties context=''>
+              <relation connection='textscan.1177msc0tpuuld1drccb60qpu1ax' name='final_copy.csv' table='[final_copy#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Plant Id' ordinal='1' />
+                  <column datatype='string' name='Reported_Prime Mover' ordinal='2' />
+                  <column datatype='string' name='Plant State' ordinal='3' />
+                  <column datatype='string' name='Census Region' ordinal='4' />
+                  <column datatype='string' name='NERC Region' ordinal='5' />
+                  <column datatype='integer' name='Elec Fuel Consumption_MMBtu' ordinal='6' />
+                  <column datatype='real' name='Net Generation_(Megawatthours)' ordinal='7' />
+                  <column datatype='integer' name='Plant Code' ordinal='8' />
+                  <column datatype='string' name='Sector Name' ordinal='9' />
+                  <column datatype='string' name='Utility Name' ordinal='10' />
+                  <column datatype='real' name='Nameplate Capacity (MW)' ordinal='11' />
+                  <column datatype='real' name='Summer Capacity (MW)' ordinal='12' />
+                  <column datatype='real' name='Winter Capacity (MW)' ordinal='13' />
+                  <column datatype='integer' name='Number of Turbines' ordinal='14' />
+                  <column datatype='real' name='turbine_capacity (KW)' ordinal='15' />
+                  <column datatype='real' name='hub_height (m)' ordinal='16' />
+                  <column datatype='real' name='rotor_diameter (m)' ordinal='17' />
+                  <column datatype='real' name='rotor_swept area (m2)' ordinal='18' />
+                  <column datatype='real' name='max_height (m)' ordinal='19' />
+                  <column datatype='real' name='xlong' ordinal='20' />
+                  <column datatype='real' name='ylat' ordinal='21' />
+                  <column datatype='integer' name='plant_id_x' ordinal='22' />
+                  <column datatype='integer' name='operation_years_x' ordinal='23' />
+                  <column datatype='real' name='CAGR_netgen' ordinal='24' />
+                  <column datatype='integer' name='plant_id_y' ordinal='25' />
+                  <column datatype='integer' name='operation_years_y' ordinal='26' />
+                  <column datatype='real' name='CACR' ordinal='27' />
+                  <column datatype='integer' name='plant_id' ordinal='28' />
+                  <column datatype='integer' name='operation_years' ordinal='29' />
+                  <column datatype='real' name='CACR_uptime' ordinal='30' />
+                  <column datatype='real' name='uptime' ordinal='31' />
+                  <column datatype='real' name='efficiency' ordinal='32' />
+                  <column datatype='real' name='avg_tgen' ordinal='33' />
+                  <column datatype='real' name='avg_fuel' ordinal='34' />
+                  <column datatype='real' name='avg_tcap' ordinal='35' />
+                  <column datatype='integer' name='cluster' ordinal='36' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Alaska'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Which States have better Uptime?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[uptime]' derivation='Avg' name='[avg:uptime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column caption='Uptime' datatype='real' name='[uptime]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]' field-type='quantitative' max='24939647.762027256' min='21851184.123892017' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]' field-type='quantitative' max='10412056.550109265' min='8047784.406056691' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#cfe2e6</color>
+                <color>#afd4db</color>
+                <color>#91c6d0</color>
+                <color>#76b8c5</color>
+                <color>#5dabba</color>
+                <color>#459eaf</color>
+                <color>#3192a4</color>
+                <color>#1e8699</color>
+                <color>#0e7a8e</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <geometry column='[federated.1422vay11q0a0h11sobo20evpkod].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{363D86E7-87A7-43DF-986B-F205D0E1D6E1}' />
+    </worksheet>
+    <worksheet name='Alaska Cap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Which States have better Uptime?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column datatype='real' name='[Nameplate Capacity (MW)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Nameplate Capacity (MW)]' derivation='Sum' name='[sum:Nameplate Capacity (MW):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]' field-type='quantitative' max='24939647.762027256' min='21851184.123892017' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]' field-type='quantitative' max='10412056.550109265' min='8047784.406056691' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <geometry column='[federated.1422vay11q0a0h11sobo20evpkod].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{1959478D-A3B7-40E5-8AC0-19AD99F135D5}' />
+    </worksheet>
+    <worksheet name='Check Refresh'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Sheet Name> (this should match the value_counts() in the workbook)]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <_.fcp.ObjectModelTableType.false...column caption='final_copy.csv' datatype='integer' name='[__tableau_internal_object_id__].[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='final_copy.csv' datatype='table' name='[__tableau_internal_object_id__].[final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column-instance column='[cluster]' derivation='None' name='[none:cluster:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[__tableau_internal_object_id__].[cnt:final_copy.csv_8CE7245B1A5C4E3FAA50EE54812193F5:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[none:cluster:ok]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{CB92DFD3-F53B-4920-AAB6-CA7B91C78449}' />
+    </worksheet>
+    <worksheet name='Cluster'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column caption='Average Number of Turbines' datatype='real' name='[Average Uptime (copy)_4908712494304948235]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Number of Turbines])}' />
+            </column>
+            <column caption='Average Turbine Generation Capacity (MWH)' datatype='real' name='[Average Uptime Rate (copy)_87960937306693638]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([avg_tgen])}' />
+            </column>
+            <column caption='Total Capacity' datatype='real' name='[Calculation_4908712494177738752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Nameplate Capacity (MW)])}' />
+            </column>
+            <column caption='Average Cluster' datatype='real' name='[Calculation_4908712494180507651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([cluster])}' />
+            </column>
+            <column datatype='real' name='[Nameplate Capacity (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Turbines]' role='measure' type='quantitative' />
+            <column caption='Average Uptime' datatype='real' name='[Total Uptime (copy)_4908712494185844741]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([uptime])}' />
+            </column>
+            <column datatype='string' name='[Utility Name]' role='dimension' type='nominal' />
+            <column caption='Turbine Generation Capacity (MWH)' datatype='real' name='[avg_tgen]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column-instance column='[Average Uptime (copy)_4908712494304948235]' derivation='None' name='[none:Average Uptime (copy)_4908712494304948235:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Average Uptime Rate (copy)_87960937306693638]' derivation='None' name='[none:Average Uptime Rate (copy)_87960937306693638:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Uptime (copy)_4908712494185844741]' derivation='None' name='[none:Total Uptime (copy)_4908712494185844741:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Utility Name]' derivation='None' name='[none:Utility Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4908712494177738752]' derivation='Sum' name='[sum:Calculation_4908712494177738752:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4908712494180507651]' derivation='Sum' name='[sum:Calculation_4908712494180507651:qk]' pivot='key' type='quantitative' />
+            <column caption='Uptime' datatype='real' name='[uptime]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[none:Total Uptime (copy)_4908712494185844741:qk]' value='Times New Roman' />
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime Rate (copy)_87960937306693638:qk]' value='Times New Roman' />
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[none:Utility Name:nk]' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494177738752:qk]' field-type='quantitative' max-size='1' min-size='0' type='quantsize' />
+            <encoding attr='color' center='0.5' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' max='1.0' min='0.0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#790000</color>
+                <color>#810b0b</color>
+                <color>#8a1919</color>
+                <color>#932828</color>
+                <color>#9b3838</color>
+                <color>#a44a4a</color>
+                <color>#ad5e5e</color>
+                <color>#b67373</color>
+                <color>#be8a8a</color>
+                <color>#c7a3a3</color>
+                <color>#d0bdbd</color>
+                <color>#d9d9d9</color>
+                <color>#beced1</color>
+                <color>#a4c3c9</color>
+                <color>#8cb9c1</color>
+                <color>#76afb9</color>
+                <color>#61a5b1</color>
+                <color>#4d9baa</color>
+                <color>#3b92a2</color>
+                <color>#2a899a</color>
+                <color>#1a8092</color>
+                <color>#0c778a</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' value='Cluster' />
+            <format attr='size' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494177738752:qk]' value='Total Capacity (MW)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' />
+              <size column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494177738752:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Utility Name:nk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime (copy)_4908712494304948235:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='2.5927364826202393' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[none:Total Uptime (copy)_4908712494185844741:qk]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime Rate (copy)_87960937306693638:qk]</cols>
+      </table>
+      <simple-id uuid='{E74FEC28-9197-4E97-8682-F7AA86E39E6A}' />
+    </worksheet>
+    <worksheet name='Cluster (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column caption='Average Number of Turbines' datatype='real' name='[Average Uptime (copy)_4908712494304948235]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Number of Turbines])}' />
+            </column>
+            <column caption='Average Cluster' datatype='real' name='[Calculation_4908712494180507651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([cluster])}' />
+            </column>
+            <column datatype='integer' name='[Number of Turbines]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Utility Name]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column caption='Hub Height (M)' datatype='real' name='[hub_height (m)]' role='measure' type='quantitative' />
+            <column caption='Max Height (M)' datatype='real' name='[max_height (m)]' role='measure' type='quantitative' />
+            <column-instance column='[Average Uptime (copy)_4908712494304948235]' derivation='None' name='[none:Average Uptime (copy)_4908712494304948235:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[hub_height (m)]' derivation='None' name='[none:hub_height (m):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[max_height (m)]' derivation='None' name='[none:max_height (m):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[rotor_diameter (m)]' derivation='None' name='[none:rotor_diameter (m):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[rotor_swept area (m2)]' derivation='None' name='[none:rotor_swept area (m2):qk]' pivot='key' type='quantitative' />
+            <column caption='Rotor Diameter (M)' datatype='real' name='[rotor_diameter (m)]' role='measure' type='quantitative' />
+            <column caption='Rotor Swept Area (M2)' datatype='real' name='[rotor_swept area (m2)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_4908712494180507651]' derivation='Sum' name='[sum:Calculation_4908712494180507651:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:hub_height (m):qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:hub_height (m):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='0.5' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' max='1.0' min='0.0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#790000</color>
+                <color>#810b0b</color>
+                <color>#8a1919</color>
+                <color>#932828</color>
+                <color>#9b3838</color>
+                <color>#a44a4a</color>
+                <color>#ad5e5e</color>
+                <color>#b67373</color>
+                <color>#be8a8a</color>
+                <color>#c7a3a3</color>
+                <color>#d0bdbd</color>
+                <color>#d9d9d9</color>
+                <color>#beced1</color>
+                <color>#a4c3c9</color>
+                <color>#8cb9c1</color>
+                <color>#76afb9</color>
+                <color>#61a5b1</color>
+                <color>#4d9baa</color>
+                <color>#3b92a2</color>
+                <color>#2a899a</color>
+                <color>#1a8092</color>
+                <color>#0c778a</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' value='Cluster' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime (copy)_4908712494304948235:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.82027024030685425' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1422vay11q0a0h11sobo20evpkod].[none:max_height (m):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime (copy)_4908712494304948235:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.82027024030685425' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1422vay11q0a0h11sobo20evpkod].[none:hub_height (m):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime (copy)_4908712494304948235:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.82027024030685425' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1422vay11q0a0h11sobo20evpkod].[none:max_height (m):qk] + [federated.1422vay11q0a0h11sobo20evpkod].[none:hub_height (m):qk])</rows>
+        <cols>([federated.1422vay11q0a0h11sobo20evpkod].[none:rotor_swept area (m2):qk] + [federated.1422vay11q0a0h11sobo20evpkod].[none:rotor_diameter (m):qk])</cols>
+      </table>
+      <simple-id uuid='{36E01823-147F-4650-A594-D23B6F578C32}' />
+    </worksheet>
+    <worksheet name='Co Selection'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column caption='Average Consumption Rate' datatype='real' name='[Average CAGR (copy)_87960937035042817]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([CACR])}' />
+            </column>
+            <column caption='Average Uptime Rate' datatype='real' name='[Average Cluster (copy)_87960937053798402]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([CACR_uptime])}' />
+            </column>
+            <column caption='Average Number of Turbines' datatype='real' name='[Average Uptime (copy)_4908712494304948235]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Number of Turbines])}' />
+            </column>
+            <column datatype='real' name='[CACR]' role='measure' type='quantitative' />
+            <column datatype='real' name='[CACR_uptime]' role='measure' type='quantitative' />
+            <column caption='Total Capacity' datatype='real' name='[Calculation_4908712494177738752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Nameplate Capacity (MW)])}' />
+            </column>
+            <column caption='Average Cluster' datatype='real' name='[Calculation_4908712494180507651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([cluster])}' />
+            </column>
+            <column datatype='real' name='[Nameplate Capacity (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Turbines]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sector Name]' role='dimension' type='nominal' />
+            <column caption='Total Turbine' datatype='integer' name='[Total Uptime (copy)_6159657659569381376]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Number of Turbines])}' />
+            </column>
+            <column datatype='string' name='[Utility Name]' role='dimension' type='nominal' />
+            <column-instance column='[plant_id]' derivation='Attribute' name='[attr:plant_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[operation_years]' derivation='Avg' name='[avg:operation_years:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column-instance column='[Average CAGR (copy)_87960937035042817]' derivation='None' name='[none:Average CAGR (copy)_87960937035042817:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Cluster (copy)_87960937053798402]' derivation='None' name='[none:Average Cluster (copy)_87960937053798402:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Uptime (copy)_4908712494304948235]' derivation='None' name='[none:Average Uptime (copy)_4908712494304948235:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_4908712494177738752]' derivation='None' name='[none:Calculation_4908712494177738752:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sector Name]' derivation='None' name='[none:Sector Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Utility Name]' derivation='None' name='[none:Utility Name:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[operation_years]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[plant_id]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_4908712494180507651]' derivation='Sum' name='[sum:Calculation_4908712494180507651:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Uptime (copy)_6159657659569381376]' derivation='Sum' name='[sum:Total Uptime (copy)_6159657659569381376:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average CAGR (copy)_87960937035042817:qk]' included-values='in-range'>
+            <min>-0.803481077</min>
+            <max>0.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Cluster (copy)_87960937053798402:qk]' included-values='in-range'>
+            <min>5.0</min>
+            <max>17.167650755</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Calculation_4908712494177738752:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>608.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Utility Name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;AgriWind Project, LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Apple Blossom Wind, LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Foundation HA Energy Generation, LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;FPL Energy Weatherford, LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Gray County Wind Energy LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Hawkeye Power Partners LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Hilltop Power, LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Kotzebue Electric Assn Inc&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Nome Joint Utility Systems&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Painted Hills Wind Holdings, LLC&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Pantex (NNSA)&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Town of Ipswich - (MA)&quot;' />
+              <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Trinity Hills Wind Farm LLC&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Calculation_4908712494177738752:qk]</column>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Cluster (copy)_87960937053798402:qk]</column>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average CAGR (copy)_87960937035042817:qk]</column>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Utility Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average CAGR (copy)_87960937035042817:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' palette='red_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' />
+              <tooltip column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Total Uptime (copy)_6159657659569381376:qk]' />
+              <tooltip column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:operation_years:qk]' />
+              <tooltip column='[federated.1422vay11q0a0h11sobo20evpkod].[attr:plant_id:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Utility Name:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Sector Name:nk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime (copy)_4908712494304948235:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.5052486658096313' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Cluster (copy)_87960937053798402:qk]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average CAGR (copy)_87960937035042817:qk]</cols>
+      </table>
+      <simple-id uuid='{E44C784A-01C8-4B0F-8889-879540EE12F7}' />
+    </worksheet>
+    <worksheet name='Co Selection (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column caption='Average Consumption Rate' datatype='real' name='[Average CAGR (copy)_87960937035042817]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([CACR])}' />
+            </column>
+            <column caption='Average Uptime Rate' datatype='real' name='[Average Cluster (copy)_87960937053798402]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([CACR_uptime])}' />
+            </column>
+            <column caption='Average Number of Turbines' datatype='real' name='[Average Uptime (copy)_4908712494304948235]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([Number of Turbines])}' />
+            </column>
+            <column datatype='real' name='[CACR]' role='measure' type='quantitative' />
+            <column datatype='real' name='[CACR_uptime]' role='measure' type='quantitative' />
+            <column caption='Total Capacity' datatype='real' name='[Calculation_4908712494177738752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:sum([Nameplate Capacity (MW)])}' />
+            </column>
+            <column caption='Average Cluster' datatype='real' name='[Calculation_4908712494180507651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED[Utility Name]:AVG([cluster])}' />
+            </column>
+            <column datatype='real' name='[Nameplate Capacity (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Turbines]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Sector Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Utility Name]' role='dimension' type='nominal' />
+            <column aggregation='Sum' caption='Cluster' datatype='integer' name='[cluster]' role='dimension' type='ordinal' />
+            <column-instance column='[Average CAGR (copy)_87960937035042817]' derivation='None' name='[none:Average CAGR (copy)_87960937035042817:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Cluster (copy)_87960937053798402]' derivation='None' name='[none:Average Cluster (copy)_87960937053798402:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Uptime (copy)_4908712494304948235]' derivation='None' name='[none:Average Uptime (copy)_4908712494304948235:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_4908712494177738752]' derivation='None' name='[none:Calculation_4908712494177738752:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector Name]' derivation='None' name='[none:Sector Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Utility Name]' derivation='None' name='[none:Utility Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[xlong]' derivation='None' name='[none:xlong:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ylat]' derivation='None' name='[none:ylat:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[operation_years]' role='measure' type='quantitative' />
+            <column-instance column='[Average Cluster (copy)_87960937053798402]' derivation='Sum' name='[sum:Average Cluster (copy)_87960937053798402:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_4908712494180507651]' derivation='Sum' name='[sum:Calculation_4908712494180507651:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[operation_years]' derivation='Sum' name='[sum:operation_years:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Xlong' datatype='real' name='[xlong]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Ylat' datatype='real' name='[ylat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1422vay11q0a0h11sobo20evpkod].[Exclusions (Average Number of Turbines,Plant State,Sector Name,Utility Name,Xlong,Ylat)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Average Uptime (copy)_4908712494304948235:ok]' />
+                <groupfilter function='level-members' level='[none:Plant State:nk]' />
+                <groupfilter function='level-members' level='[none:Sector Name:nk]' />
+                <groupfilter function='level-members' level='[none:Utility Name:nk]' />
+                <groupfilter function='level-members' level='[none:xlong:qk]' />
+                <groupfilter function='level-members' level='[none:ylat:qk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Average Uptime (copy)_4908712494304948235:ok]' member='6.5' />
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Plant State:nk]' member='&quot;CA&quot;' />
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Sector Name:nk]' member='&quot;IPP Non-CHP&quot;' />
+                    <groupfilter function='crossjoin'>
+                      <groupfilter function='member' level='[none:Utility Name:nk]' member='&quot;Wind Wall 1 LLC&quot;' />
+                      <groupfilter function='crossjoin'>
+                        <groupfilter function='member' level='[none:xlong:qk]' member='-118.32735423076923' />
+                        <groupfilter function='member' level='[none:ylat:qk]' member='35.098194538461534' />
+                      </groupfilter>
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average CAGR (copy)_87960937035042817:qk]' included-values='in-range'>
+            <min>-0.803481077</min>
+            <max>0.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Cluster (copy)_87960937053798402:qk]' included-values='in-range'>
+            <min>5.0</min>
+            <max>17.167650755</max>
+          </filter>
+          <filter class='quantitative' column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Calculation_4908712494177738752:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>608.0</max>
+          </filter>
+          <slices>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Calculation_4908712494177738752:qk]</column>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Cluster (copy)_87960937053798402:qk]</column>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[none:Average CAGR (copy)_87960937035042817:qk]</column>
+            <column>[federated.1422vay11q0a0h11sobo20evpkod].[Exclusions (Average Number of Turbines,Plant State,Sector Name,Utility Name,Xlong,Ylat)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[none:xlong:qk]' field-type='quantitative' max='-7111573.7405497357' min='-18728762.18658258' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[none:ylat:qk]' field-type='quantitative' max='11070713.085696887' min='1620791.7130788933' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' palette='red_blue_diverging_10_0' type='interpolated' />
+            <encoding attr='size' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Average Cluster (copy)_87960937053798402:qk]' field-type='quantitative' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' />
+              <size column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Average Cluster (copy)_87960937053798402:qk]' />
+              <tooltip column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:operation_years:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Utility Name:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Sector Name:nk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Average Uptime (copy)_4908712494304948235:ok]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.66834461688995361' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[none:ylat:qk]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[none:xlong:qk]</cols>
+      </table>
+      <simple-id uuid='{59361DE7-2A21-4131-8F68-E6025477A142}' />
+    </worksheet>
+    <worksheet name='Hawaii'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Which States have better Uptime?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[uptime]' derivation='Avg' name='[avg:uptime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column caption='Uptime' datatype='real' name='[uptime]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]' field-type='quantitative' max='22834966.291384228' min='22448908.336617325' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]' field-type='quantitative' max='2497868.5453837262' min='2202334.5273771542' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#cfe2e6</color>
+                <color>#afd4db</color>
+                <color>#91c6d0</color>
+                <color>#76b8c5</color>
+                <color>#5dabba</color>
+                <color>#459eaf</color>
+                <color>#3192a4</color>
+                <color>#1e8699</color>
+                <color>#0e7a8e</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <geometry column='[federated.1422vay11q0a0h11sobo20evpkod].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{DC00E982-B3FD-40C3-9710-4A2C8199E524}' />
+    </worksheet>
+    <worksheet name='Hawaii Cap'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Which States have better Uptime?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column datatype='real' name='[Nameplate Capacity (MW)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Nameplate Capacity (MW)]' derivation='Sum' name='[sum:Nameplate Capacity (MW):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]' field-type='quantitative' max='22834966.291384228' min='22448908.336617325' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]' field-type='quantitative' max='2497868.5453837262' min='2202334.5273771542' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <geometry column='[federated.1422vay11q0a0h11sobo20evpkod].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{AA5CD5BB-AF6D-4B8D-8B4B-25A755350DB2}' />
+    </worksheet>
+    <worksheet name='State Capacity'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Plant Uptime by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column datatype='real' name='[Nameplate Capacity (MW)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[uptime]' derivation='Avg' name='[avg:uptime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Nameplate Capacity (MW)]' derivation='Sum' name='[sum:Nameplate Capacity (MW):qk]' pivot='key' type='quantitative' />
+            <column caption='Uptime' datatype='real' name='[uptime]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]' field-type='quantitative' max='32844561.484659471' min='24142726.639688961' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]' field-type='quantitative' max='7564923.4844885385' min='2483380.3276816746' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' num-steps='3' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#cfe2e6</color>
+                <color>#afd4db</color>
+                <color>#91c6d0</color>
+                <color>#76b8c5</color>
+                <color>#5dabba</color>
+                <color>#459eaf</color>
+                <color>#3192a4</color>
+                <color>#1e8699</color>
+                <color>#0e7a8e</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#cfe2e6</color>
+                <color>#afd4db</color>
+                <color>#91c6d0</color>
+                <color>#76b8c5</color>
+                <color>#5dabba</color>
+                <color>#459eaf</color>
+                <color>#3192a4</color>
+                <color>#1e8699</color>
+                <color>#0e7a8e</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' />
+              <tooltip column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <geometry column='[federated.1422vay11q0a0h11sobo20evpkod].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{3B99C71E-3AD7-47D7-BA5D-0DD331B7BB41}' />
+    </worksheet>
+    <worksheet name='State Uptime'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Plant Uptime by State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='final_copy' name='federated.1422vay11q0a0h11sobo20evpkod' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1422vay11q0a0h11sobo20evpkod'>
+            <column datatype='string' name='[Plant State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[uptime]' derivation='Avg' name='[avg:uptime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Plant State]' derivation='None' name='[none:Plant State:nk]' pivot='key' type='nominal' />
+            <column caption='Uptime' datatype='real' name='[uptime]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]' field-type='quantitative' max='33706726.533079997' min='24564445.939865258' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]' field-type='quantitative' max='7831115.6119306739' min='2673558.1781876273' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#cfe2e6</color>
+                <color>#afd4db</color>
+                <color>#91c6d0</color>
+                <color>#76b8c5</color>
+                <color>#5dabba</color>
+                <color>#459eaf</color>
+                <color>#3192a4</color>
+                <color>#1e8699</color>
+                <color>#0e7a8e</color>
+                <color>#006f83</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Times New Roman' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <tooltip column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <text column='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' />
+              <lod column='[federated.1422vay11q0a0h11sobo20evpkod].[none:Plant State:nk]' />
+              <geometry column='[federated.1422vay11q0a0h11sobo20evpkod].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1422vay11q0a0h11sobo20evpkod].[Latitude (generated)]</rows>
+        <cols>[federated.1422vay11q0a0h11sobo20evpkod].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{45FE74F8-3946-4AA7-931B-14F927800634}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='92915' id='7' param='horz' type-v2='layout-flow' w='98508' x='746' y='1178'>
+            <zone h='92915' id='5' type-v2='layout-basic' w='98508' x='746' y='1178'>
+              <zone h='92915' id='3' name='State Uptime' show-title='false' w='98508' x='746' y='1178'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone fixed-size='160' h='4729' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='98508' x='746' y='94093'>
+            <zone h='4729' id='8' name='State Uptime' pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type-v2='color' w='98508' x='746' y='94093'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='21797' id='11' name='Hawaii' show-title='false' w='14780' x='1964' y='71723'>
+          <layout-cache minwidth='202' type-h='scalable' type-w='scalable' />
+        </zone>
+        <zone h='19146' id='12' name='Alaska' show-title='false' w='9916' x='4303' y='9573'>
+          <layout-cache minheight='201' minwidth='201' type-h='scalable' type-w='scalable' />
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97644' id='51' param='vert' type-v2='layout-flow' w='98508' x='746' y='1178'>
+                <zone fixed-size='280' h='92915' id='3' is-fixed='true' name='State Uptime' show-title='false' w='98508' x='746' y='1178'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4729' id='8' name='State Uptime' pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type-v2='color' w='98508' x='746' y='94093'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='153' h='19146' id='12' is-fixed='true' name='Alaska' show-title='false' w='9916' x='4303' y='9573'>
+                  <layout-cache minheight='201' minwidth='201' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='174' h='21797' id='11' is-fixed='true' name='Hawaii' show-title='false' w='14780' x='1964' y='71723'>
+                  <layout-cache minwidth='202' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{51C40A12-2749-455D-B67E-487BC9DE14D4}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='19' param='horz' type-v2='layout-flow' w='100000' x='0' y='0'>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='92489' id='15' name='State Capacity' show-title='false' w='100000' x='0' y='0'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7511' id='20' name='State Capacity' pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' type-v2='color' w='100000' x='0' y='92489'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+        </zone>
+        <zone h='26215' id='21' name='Hawaii Cap' show-title='false' w='19457' x='1403' y='62887' />
+        <zone h='24300' id='22' name='Alaska Cap' show-title='false' w='20019' x='1684' y='2062' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='52' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97644' id='51' param='vert' type-v2='layout-flow' w='98508' x='746' y='1178'>
+                <zone fixed-size='280' h='92489' id='15' is-fixed='true' name='State Capacity' show-title='false' w='100000' x='0' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7511' id='20' name='State Capacity' pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' type-v2='color' w='100000' x='0' y='92489'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='195' h='24300' id='22' is-fixed='true' name='Alaska Cap' show-title='false' w='20019' x='1684' y='2062'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='210' h='26215' id='21' is-fixed='true' name='Hawaii Cap' show-title='false' w='19457' x='1403' y='62887'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5D18BB79-1F63-4734-B6C9-8B80C5A42A78}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='3'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97644' id='17' param='horz' type-v2='layout-flow' w='98508' x='746' y='1178'>
+            <zone h='97644' id='15' type-v2='layout-basic' w='98508' x='746' y='1178'>
+              <zone h='97644' id='14' name='Cluster' show-title='false' w='98508' x='746' y='1178'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97644' id='34' param='vert' type-v2='layout-flow' w='98508' x='746' y='1178'>
+                <zone fixed-size='280' h='97644' id='14' is-fixed='true' name='Cluster' show-title='false' w='98508' x='746' y='1178'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E8B6ED58-9B5D-49D5-825E-D900472A832B}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='4'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97644' id='5' param='horz' type-v2='layout-flow' w='98508' x='746' y='1178'>
+            <zone h='97644' id='3' type-v2='layout-basic' w='98508' x='746' y='1178'>
+              <zone h='97644' id='1' name='Cluster (2)' show-title='false' w='98508' x='746' y='1178'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97644' id='22' param='vert' type-v2='layout-flow' w='98508' x='746' y='1178'>
+                <zone fixed-size='280' h='97644' id='1' is-fixed='true' name='Cluster (2)' show-title='false' w='98508' x='746' y='1178'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2257BDF6-1AC8-4043-914C-7957E5E4D6C2}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='5'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Co Selection' show-title='false' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='22' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Co Selection' show-title='false' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A4768C03-FDE1-424D-AFD0-654A55FAE228}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='State Uptime'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{16AF8D36-9FB6-4AD1-A50C-BB41138D7431}' />
+    </window>
+    <window class='worksheet' name='Hawaii'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{978A4235-5BE2-4B41-8DF6-9D1313DC3E50}' />
+    </window>
+    <window class='worksheet' name='Alaska'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[avg:uptime:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EA25E1D-B5C3-4FFA-910F-2BA6B1529F9E}' />
+    </window>
+    <window class='worksheet' name='State Capacity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E9A4BC1F-446F-453A-BC05-B1ADD089B10D}' />
+    </window>
+    <window class='worksheet' name='Hawaii Cap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{12451841-CE90-471A-9F85-D85D6AAF46E9}' />
+    </window>
+    <window class='worksheet' name='Alaska Cap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Nameplate Capacity (MW):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9596F838-43FA-4552-AA57-A46BA7DF55BD}' />
+    </window>
+    <window class='worksheet' name='Cluster'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='9' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' type='color' />
+            <card pane-specification-id='9' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494177738752:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1838F23F-D7F3-41B8-8157-2638283D7EDD}' />
+    </window>
+    <window class='worksheet' name='Cluster (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='11' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{648ADAFC-1DB9-47F6-9ED4-6E8144272310}' />
+    </window>
+    <window class='worksheet' name='Co Selection'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='11' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BDEE1374-E6CB-4F33-A787-59CC7B96D28D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Co Selection (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='11' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Calculation_4908712494180507651:qk]' type='color' />
+            <card pane-specification-id='11' param='[federated.1422vay11q0a0h11sobo20evpkod].[sum:Average Cluster (copy)_87960937053798402:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6A7F3AD9-C2DF-408F-9254-812B0AA55047}' />
+    </window>
+    <window class='worksheet' name='Check Refresh'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BD4648BB-5FFD-499F-8BC6-D13A24D92608}' />
+    </window>
+    <window class='dashboard' name='1'>
+      <viewpoints>
+        <viewpoint name='Alaska'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hawaii'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='State Uptime'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{A61885F6-727C-4671-8510-E9F21584F811}' />
+    </window>
+    <window class='dashboard' name='2'>
+      <viewpoints>
+        <viewpoint name='Alaska Cap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Hawaii Cap'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='State Capacity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='15' />
+      <simple-id uuid='{A328BDA4-CDEA-4640-A821-F8C9C361877B}' />
+    </window>
+    <window class='dashboard' name='3'>
+      <viewpoints>
+        <viewpoint name='Cluster'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <simple-id uuid='{7618FDA1-E89B-4EFC-BF31-25F25E704B91}' />
+    </window>
+    <window class='dashboard' name='4'>
+      <viewpoints>
+        <viewpoint name='Cluster (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='1' />
+      <simple-id uuid='{4C225842-5C03-47E5-980F-141B7DC4C7A6}' />
+    </window>
+    <window class='dashboard' name='5'>
+      <viewpoints>
+        <viewpoint name='Co Selection'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{46D68EE5-8A23-4C8A-9AEE-C32538D96744}' />
+    </window>
+  </windows>
+</workbook>
