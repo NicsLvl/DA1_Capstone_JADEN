@@ -19,14 +19,26 @@ Gain experience with project management and associated tools
 
 All the data be found in the data folder. We will use the latest datasets available which is up till 2021. The project will use the following data:
 - [EIA schedule 860](https://www.eia.gov/electricity/data/eia860/): eia860_num_wt_Y2021.xlsx
-- [EIA schedule 923](https://www.eia.gov/electricity/data/eia923/) : EIA923_Schedules_2_3_4_5_M_12_2021_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2020_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2019_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2018_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2017_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2016_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2015_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2014_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2013_Final_Revision.xlsx
-EIA923_Schedules_2_3_4_5_M_12_2012_Final_Revision.xlsx
+- [EIA schedule 923](https://www.eia.gov/electricity/data/eia923/): 
+1. EIA923_Schedules_2_3_4_5_M_12_2021_Final_Revision.xlsx
+2. EIA923_Schedules_2_3_4_5_M_12_2020_Final_Revision.xlsx
+3. EIA923_Schedules_2_3_4_5_M_12_2019_Final_Revision.xlsx
+4. EIA923_Schedules_2_3_4_5_M_12_2018_Final_Revision.xlsx
+5. EIA923_Schedules_2_3_4_5_M_12_2017_Final_Revision.xlsx
+6. EIA923_Schedules_2_3_4_5_M_12_2016_Final_Revision.xlsx
+7. EIA923_Schedules_2_3_4_5_M_12_2015_Final_Revision.xlsx
+8. EIA923_Schedules_2_3_4_5_M_12_2014_Final_Revision.xlsx
+9. EIA923_Schedules_2_3_4_5_M_12_2013_Final_Revision.xlsx
+10. EIA923_Schedules_2_3_4_5_M_12_2012_Final_Revision.xlsx
 - [US Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/): uswtdb_v5_0_20220427.csv
+
+# Notebooks Used
+wind_turbine_dataset_rename.ipynb: Renaming the column names in the data files
+windturbine_datadictionary.ipynb: Updated the data dictionary based on the site description
+10_year_data_prep_EIA860.ipynb: Cleaning the data for EIA860 Schedules
+10_year_data_prep_EIA923.ipynb: Cleaning the data for EIA923 Schedules
+sarima_forecast.ipynb: Sarima forecasting model performed on the wind market
+Model_wind_turbine.ipynb: The clustering analysis performed on the wind plants
+
+# Presentation File
+JADEN PRESENTATION_21MAR.pptx
