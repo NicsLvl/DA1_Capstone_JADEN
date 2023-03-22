@@ -16,7 +16,6 @@ Transform data into useful information to help support business decisions
 Gain experience with project management and associated tools
 
 # Data
-
 All the data be found in the data folder. We will use the latest datasets available which is up till 2021. The project will use the following data:
 - [EIA schedule 860](https://www.eia.gov/electricity/data/eia860/): eia860_num_wt_Y2021.xlsx
 - [EIA schedule 923](https://www.eia.gov/electricity/data/eia923/): 
@@ -31,14 +30,15 @@ All the data be found in the data folder. We will use the latest datasets availa
 9. EIA923_Schedules_2_3_4_5_M_12_2013_Final_Revision.xlsx
 10. EIA923_Schedules_2_3_4_5_M_12_2012_Final_Revision.xlsx
 - [US Wind Turbine Database](https://eerscmap.usgs.gov/uswtdb/): uswtdb_v5_0_20220427.csv
+- Extra research files can be found in the research folder
 
 # Notebooks Used
-wind_turbine_dataset_rename.ipynb: Renaming the column names in the data files
-windturbine_datadictionary.ipynb: Updated the data dictionary based on the site description
-10_year_data_prep_EIA860.ipynb: Cleaning the data for EIA860 Schedules
-10_year_data_prep_EIA923.ipynb: Cleaning the data for EIA923 Schedules
-sarima_forecast.ipynb: Sarima forecasting model performed on the wind market
-Model_wind_turbine.ipynb: The clustering analysis performed on the wind plants
+- wind_turbine_dataset_rename.ipynb: Renaming the column names in the data files
+- windturbine_datadictionary.ipynb: Updated the data dictionary based on the site description
+- 10_year_data_prep_EIA860.ipynb: Cleaning the data for EIA860 Schedules
+- 10_year_data_prep_EIA923.ipynb: Cleaning the data for EIA923 Schedules
+- sarima_forecast.ipynb: Sarima forecasting model performed on the wind market
+- Model_wind_turbine.ipynb: The clustering analysis performed on the wind plants
 
 # Visualizations Made
 Cluster_Visual.twbx
