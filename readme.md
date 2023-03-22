@@ -37,6 +37,7 @@ All the data be found in the data folder. We will use the latest datasets availa
 - windturbine_datadictionary.ipynb: Updated the data dictionary based on the site description
 - 10_year_data_prep_EIA860.ipynb: Cleaning the data for EIA860 Schedules
 - 10_year_data_prep_EIA923.ipynb: Cleaning the data for EIA923 Schedules
+- Feature Engineering.ipynb: Creating new features based on the data prep done
 - sarima_forecast.ipynb: Sarima forecasting model performed on the wind market
 - Model_wind_turbine.ipynb: The clustering analysis performed on the wind plants
 
