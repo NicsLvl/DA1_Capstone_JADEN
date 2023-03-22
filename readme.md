@@ -17,7 +17,17 @@ Gain experience with project management and associated tools
 
 # Data
 All the data be found in the data folder. We will use the latest datasets available which is up till 2021. The project will use the following data:
-- [EIA schedule 860](https://www.eia.gov/electricity/data/eia860/): eia860_num_wt_Y2021.xlsx
+- [EIA schedule 860](https://www.eia.gov/electricity/data/eia860/): 
+1. eia860_num_wt_Y2021.xlsx
+2. 3_2_Wind_Y2013.xlsx
+3. 3_2_Wind_Y2014.xlsx
+4. 3_2_Wind_Y2015.xlsx
+5. 3_2_Wind_Y2016.xlsx
+6. 3_2_Wind_Y2017.xlsx
+7. 3_2_Wind_Y2018.xlsx
+8. 3_2_Wind_Y2019.xlsx
+9. 3_2_Wind_Y2020.xlsx
+10. 3_2_Wind_Y2021.xlsx
 - [EIA schedule 923](https://www.eia.gov/electricity/data/eia923/): 
 1. EIA923_Schedules_2_3_4_5_M_12_2021_Final_Revision.xlsx
 2. EIA923_Schedules_2_3_4_5_M_12_2020_Final_Revision.xlsx
@@ -42,7 +52,7 @@ You should run these in this order:
 - sarima_forecast.ipynb: Sarima forecasting model performed on the wind market
 - Model_wind_turbine.ipynb: The clustering analysis performed on the wind plants
 
-# Visualizations Made
+# Visualizations
 Cluster_Visual.twbx
 
 # Presentation File
