@@ -43,7 +43,7 @@ All the data be found in the data folder. We will use the latest datasets availa
 - Extra research files can be found in the research folder
 
 # Notebooks Used
-You should run these in this order:
+You should run these in this order if you wish to recreate the steps:
 - wind_turbine_dataset_rename.ipynb: Renaming the column names in the data files
 - windturbine_datadictionary.ipynb: Updated the data dictionary based on the site description
 - 10_year_data_prep_EIA860.ipynb: Cleaning the data for EIA860 Schedules
@@ -56,4 +56,4 @@ You should run these in this order:
 Cluster_Visual.twbx
 
 # Presentation File
-JADEN PRESENTATION_21MAR.pptx
+JADEN PRESENTATION_22MAR.pptx
